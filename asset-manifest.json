@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/goit-react-hw-03-additional-find-country/static/css/main.27fd15f6.chunk.css",
+    "main.js": "/goit-react-hw-03-additional-find-country/static/js/main.9441adb0.chunk.js",
+    "main.js.map": "/goit-react-hw-03-additional-find-country/static/js/main.9441adb0.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-03-additional-find-country/static/js/runtime-main.ba8b8f59.js",
+    "runtime-main.js.map": "/goit-react-hw-03-additional-find-country/static/js/runtime-main.ba8b8f59.js.map",
+    "static/css/2.5dbdccff.chunk.css": "/goit-react-hw-03-additional-find-country/static/css/2.5dbdccff.chunk.css",
+    "static/js/2.23877df4.chunk.js": "/goit-react-hw-03-additional-find-country/static/js/2.23877df4.chunk.js",
+    "static/js/2.23877df4.chunk.js.map": "/goit-react-hw-03-additional-find-country/static/js/2.23877df4.chunk.js.map",
+    "index.html": "/goit-react-hw-03-additional-find-country/index.html",
+    "precache-manifest.9c889675782cdd38ddc60099ed0ed7d0.js": "/goit-react-hw-03-additional-find-country/precache-manifest.9c889675782cdd38ddc60099ed0ed7d0.js",
+    "service-worker.js": "/goit-react-hw-03-additional-find-country/service-worker.js",
+    "static/css/2.5dbdccff.chunk.css.map": "/goit-react-hw-03-additional-find-country/static/css/2.5dbdccff.chunk.css.map",
+    "static/css/main.27fd15f6.chunk.css.map": "/goit-react-hw-03-additional-find-country/static/css/main.27fd15f6.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba8b8f59.js",
+    "static/css/2.5dbdccff.chunk.css",
+    "static/js/2.23877df4.chunk.js",
+    "static/css/main.27fd15f6.chunk.css",
+    "static/js/main.9441adb0.chunk.js"
+  ]
+}
