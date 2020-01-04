@@ -5,9 +5,9 @@ import T from 'prop-types';
 /*
  * COMPONENT
  */
-const Country = ({
-  country: { name, capital, population, languages, flag },
-}) => {
+const Country = ({ country }) => {
+  const { name, capital, population, languages, flag } = country;
+
   return (
     <section>
       <h2>{name}</h2>

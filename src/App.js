@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import { toast } from 'react-toastify';
+import debounce from 'lodash.debounce';
 /* import - CSS */
 import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
@@ -18,7 +19,16 @@ toast.configure();
 class App extends Component {
   state = {
     countries: [],
+    query: '',
   };
+
+  componentDidUpdate() {
+    this.callNewFetchdDebounce();
+  }
+
+  callNewFetchdDebounce = debounce(() => {
+    this.newFetch(this.state.query.trim());
+  }, 1000);
 
   notifyToShortenSearch = () => {
     toast.warn('Введите еще для сокращение поиска', {
@@ -32,7 +42,9 @@ class App extends Component {
     });
   };
 
-  newFetch = query => {
+  newFetch = () => {
+    const { query } = this.state;
+
     if (!query.length) {
       this.setState({ countries: [] });
 
@@ -57,12 +69,14 @@ class App extends Component {
       });
   };
 
+  handleChange = e => this.setState({ query: e.target.value });
+
   render() {
-    const { countries } = this.state;
+    const { countries, query } = this.state;
 
     return (
       <>
-        <SearchForm newFetch={this.newFetch} />
+        <SearchForm query={query} onChange={this.handleChange} />
 
         {countries.length === 0 && <div>Find need country!</div>}
         {countries.length === 1 && <Country country={countries[0]} />}
