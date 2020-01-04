@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8b56ef5ef7d63efced60c91c61f36dc5",
+    "revision": "eccf032509da9d70fb235f4d859f71b6",
     "url": "/goit-react-hw-03-additional-find-country/index.html"
   },
   {
-    "revision": "ae690824e570d016ea1d",
+    "revision": "07f984603f2f8615a82f",
     "url": "/goit-react-hw-03-additional-find-country/static/css/2.5dbdccff.chunk.css"
   },
   {
-    "revision": "2b9ab0132e1ef08b9df8",
+    "revision": "f0c96de1a16af4959af4",
     "url": "/goit-react-hw-03-additional-find-country/static/css/main.27fd15f6.chunk.css"
   },
   {
-    "revision": "ae690824e570d016ea1d",
-    "url": "/goit-react-hw-03-additional-find-country/static/js/2.23877df4.chunk.js"
+    "revision": "07f984603f2f8615a82f",
+    "url": "/goit-react-hw-03-additional-find-country/static/js/2.3541b780.chunk.js"
   },
   {
-    "revision": "2b9ab0132e1ef08b9df8",
-    "url": "/goit-react-hw-03-additional-find-country/static/js/main.9441adb0.chunk.js"
+    "revision": "f0c96de1a16af4959af4",
+    "url": "/goit-react-hw-03-additional-find-country/static/js/main.c7caad9e.chunk.js"
   },
   {
     "revision": "cd22873acadfe709c103",
